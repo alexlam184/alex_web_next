@@ -9,12 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.0.2",
+    "gatsby": "^3.10.2",
+    "gatsby-image": "^3.10.0",
+    "graphql": "^15.5.1",
     "next": "11.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "17.0.2",
+    "react-github-btn": "^1.2.0",
+    "react-helmet": "^6.1.0",
+    "react-next-github-btn": "^1.2.1",
+    "react-reveal": "^1.2.2",
+    "react-scroll": "^1.8.3",
+    "react-tilt": "^0.1.4",
+    "sass": "^1.37.0"
   },
   "devDependencies": {
-    "eslint": "7.31.0",
+    "eslint": "^7.31.0",
     "eslint-config-next": "11.0.1"
   }
 }
