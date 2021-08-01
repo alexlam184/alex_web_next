@@ -6,8 +6,9 @@ import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
 
 const About = () => {
-  const { about } = useContext(PortfolioContext);
+  const { about,prefix } = useContext(PortfolioContext);
   const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -31,7 +32,9 @@ const About = () => {
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
                 {/* {img} */}
-                <AboutImg alt="profile picture" filename={img} />
+                hello
+                {prefix}
+                <AboutImg alt="profile picture" filename={prefix+img} />
               </div>
             </Fade>
           </Col>

@@ -15,6 +15,7 @@ function App() {
   const [projects, setProjects] = useState([]);
   const [contact, setContact] = useState({});
   const [footer, setFooter] = useState({});
+  const [prefix, setPrefix] = useState('');
 
   useEffect(() => {
     setHero({ ...heroData });
@@ -22,10 +23,11 @@ function App() {
     setProjects([...projectsData]);
     setContact({ ...contactData });
     setFooter({ ...footerData });
+    setPrefix('/alex_web_next');
   }, []);
 
   return (
-    <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
+    <PortfolioProvider value={{ hero, about, projects, contact, footer,prefix }}>
       <Hero />
       <About />
       <Projects />
