@@ -5,4 +5,8 @@ module.exports = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  images: {
+    loader: 'imgix',
+    path: '',
+  },
 }
