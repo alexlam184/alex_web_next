@@ -1,29 +1,31 @@
-import { nanoid } from 'nanoid';
-import profilePic from '../public/icon/profile.jpg'
-import teeaiprojectPic from '../public/project/teeai_01.png'
+import { nanoid } from "nanoid";
+import profilePic from "../public/icon/profile.jpg";
+import teeaiprojectPic from "../public/project/teeai_01.png";
 
 // HEAD DATA
 export const headData = {
-  title: 'Alex Lam - Story writer', // e.g: 'Name | Developer'
-  lang: 'en', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: "Alex Lam - Story writer", // e.g: 'Name | Developer'
+  lang: "en", // e.g: en, es, fr, jp
+  description: "", // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: 'Alex Lam',
-  subtitle: 'Life as a comedian to code',
-  cta: 'About me',
+  title: "",
+  name: "Alex Lam",
+  subtitle: "Life as a comedian to code",
+  cta: "About me",
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: profilePic,
   paragraphOne: "Hey! I'm Alex from Hong Kong",
-  paragraphTwo: 'I graduated from HKUST Computer Science.',
-  paragraphThree: 'Welcome to my website! :) I am PC gamer,currently playing AOE 2. I love interacting with people & making others happy. So come say hi!',
-  resume: 'https://drive.google.com/file/d/184H8MjF6B0pkFBXBeKpycBK-l1im89cP/view?usp=sharing', // if no resume, the button will not show up
+  paragraphTwo: "I graduated from HKUST Computer Science.",
+  paragraphThree:
+    "Welcome to my website! :) I am PC gamer,currently playing AOE 2 and Euro truck simulator. I love interacting with people & making others happy. So come say hi!",
+  resume:
+    "https://drive.google.com/file/d/184H8MjF6B0pkFBXBeKpycBK-l1im89cP/view?usp=sharing", // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -31,29 +33,29 @@ export const projectsData = [
   {
     id: nanoid(),
     img: teeaiprojectPic,
-    title: 'Tee.AI',
-    info: 'Blockly platform for Kids STEM education',
-    info2: '',
-    url: 'https://www.youtube.com/watch?v=M-sK2zdT6jM',
-    repo: '', // if no repo, the button will not show up
+    title: "Tee.AI",
+    info: "Blockly platform for Kids STEM education",
+    info2: "",
+    url: "https://www.youtube.com/watch?v=M-sK2zdT6jM",
+    repo: "", // if no repo, the button will not show up
   },
 
   // {
   //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: '', // if no repo, the button will not show up
+  //   img: teeaiprojectPic,
+  //   title: "Tee.assembly",
+  //   info: "TEE Assembly is web application for modeling and simulation of a logical circuits using logical gates.User can edit and run digital circuit simulation designs online on PCs, Macs, tablets, smart phones without any installation.",
+  //   info2: "",
+  //   url: "https://www.youtube.com/watch?v=qFlwhhOqVWk",
+  //   repo: "", // if no repo, the button will not show up
   // },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Keep in touch with me',
-  btn: 'Email',
-  email: 'lamalex0211@gmail.com',
+  cta: "Keep in touch with me",
+  btn: "Email",
+  email: "lamalex0211@gmail.com",
 };
 
 // FOOTER DATA
@@ -71,13 +73,13 @@ export const footerData = {
     // },
     {
       id: nanoid(),
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/alex-lam-724992152/',
+      name: "linkedin",
+      url: "https://www.linkedin.com/in/alex-lam-724992152/",
     },
     {
       id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/alexlam184',
+      name: "github",
+      url: "https://github.com/alexlam184",
     },
   ],
 };
